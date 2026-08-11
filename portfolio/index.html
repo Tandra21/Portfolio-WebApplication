@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cybersecurity portfolio of Tandra Pramanik, a Computer Science and Engineering student at BAUET interested in web security, vulnerability research, networking, Linux, and secure software development.">
+    <meta property="og:title" content="Tandra Pramanik | Cybersecurity Portfolio">
+    <meta property="og:description" content="Cybersecurity portfolio of Tandra Pramanik, a CSE student building practical security skills and preparing for a cybersecurity career.">
+    <meta property="og:type" content="website">
+    <title>Tandra Pramanik | Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button class="back-to-top" aria-label="Scroll back to top">↑</button>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="brand-logo">TANDRA</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="primary-navigation" id="primary-navigation">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#research">Security Research</a></li>
+                    <li><a href="#labs">CTF & Labs</a></li>
+                    <li><a href="#writeups">Write-ups</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="hero-meta">Cybersecurity Portfolio</p>
+                    <h1>Hi, I'm <span class="hero-name">Tandra</span></h1>
+                    <p class="hero-subtitle">CSE Student &amp; Aspiring Cybersecurity Professional</p>
+                    <p class="hero-description">I am a Computer Science and Engineering student at Bangladesh Army University of Engineering and Technology with a strong interest in cybersecurity. I am currently developing my skills in web application security, networking, Linux, vulnerability research, and secure software development through practical learning and hands-on projects.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projects">View My Work</a>
+                        <a class="button button-secondary" href="assets/Tandra-Pramanik-CV.pdf" download>Download CV</a>
+                    </div>
+                    <div class="hero-socials" aria-label="Social links">
+                        <a href="https://github.com/Tandra21" target="_blank" rel="noreferrer">GitHub</a>
+                        <a href="https://linkedin.com/in/YOUR_LINKEDIN_URL" target="_blank" rel="noreferrer">LinkedIn</a>
+                        <a href="mailto:tandra01304@gmail.com">Email</a>
+                    </div>
+                </div>
+                <div class="hero-visual" aria-labelledby="hero-visual-heading">
+                    <div class="visual-panel">
+                        <div class="visual-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <h2 id="hero-visual-heading">Security Lab Terminal</h2>
+                        </div>
+                        <div class="terminal-card">
+                            <pre class="terminal-output" aria-live="polite"></pre>
+                        </div>
+                        <div class="status-grid">
+                            <div class="status-item">
+                                <span>Status</span>
+                                <strong>Monitoring</strong>
+                            </div>
+                            <div class="status-item">
+                                <span>Network</span>
+                                <strong>Active</strong>
+                            </div>
+                            <div class="status-item">
+                                <span>Scan</span>
+                                <strong>Ready</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-section section-surface" id="about">
+            <div class="container section-header">
+                <span class="section-label">About Me</span>
+                <h2>About Me</h2>
+            </div>
+            <div class="container about-grid">
+                <article class="about-copy">
+                    <p>I am <strong>Tandra Pramanik</strong>, a Computer Science and Engineering student at Bangladesh Army University of Engineering and Technology (BAUET), currently studying in the 3rd Year, 2nd Semester. I am highly interested in the field of Cybersecurity and am working toward developing practical skills in security testing, networking, Linux, web application security, and secure software development.</p>
+                    <p>My goal is to build a strong foundation in cybersecurity through continuous learning, hands-on labs, security projects, CTF challenges, and vulnerability research. I am particularly interested in understanding how web applications and networks can be secured against real-world security threats.</p>
+                    <ul class="interest-list">
+                        <li>Cybersecurity</li>
+                        <li>Web Application Security</li>
+                        <li>Vulnerability Research</li>
+                        <li>Network Security</li>
+                        <li>Ethical Hacking</li>
+                        <li>Linux</li>
+                        <li>Secure Software Development</li>
+                    </ul>
+                </article>
+                <aside class="profile-card">
+                    <div class="profile-avatar">
+                        <!-- Place your uploaded portrait at assets/profile.jpg -->
+                        <img src="assets/profile.jpg" alt="Portrait of Tandra Pramanik" onerror="this.style.display='none'" />
+                        <div class="avatar-fallback" aria-hidden="true">
+                            <span>TP</span>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <h3>Tandra Pramanik</h3>
+                        <p>CSE Student &amp; Cybersecurity Learner</p>
+                        <div class="profile-meta">
+                            <div><strong>University</strong><span>BAUET</span></div>
+                            <div><strong>Department</strong><span>CSE</span></div>
+                            <div><strong>Year</strong><span>3rd Year, 2nd Semester</span></div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <section class="stats-section section-surface" id="stats">
+            <div class="container section-header">
+                <span class="section-label">Quick Statistics</span>
+                <h2>Key Learning Metrics</h2>
+            </div>
+            <div class="container stats-grid">
+                <article class="stat-card">
+                    <span class="stat-title">Security Projects</span>
+                    <strong class="stat-value">03+</strong>
+                    <p class="stat-note">Placeholder — update with actual numbers</p>
+                </article>
+                <article class="stat-card">
+                    <span class="stat-title">Vulnerabilities Researched</span>
+                    <strong class="stat-value">05+</strong>
+                    <p class="stat-note">Placeholder — update with actual numbers</p>
+                </article>
+                <article class="stat-card">
+                    <span class="stat-title">CTF / Labs Completed</span>
+                    <strong class="stat-value">10+</strong>
+                    <p class="stat-note">Placeholder — update with actual numbers</p>
+                </article>
+                <article class="stat-card">
+                    <span class="stat-title">Technologies</span>
+                    <strong class="stat-value">15+</strong>
+                    <p class="stat-note">Placeholder — update with actual numbers</p>
+                </article>
+            </div>
+        </section>
+        <section class="skills-section section-surface" id="skills">
+            <div class="container section-header">
+                <span class="section-label">Cybersecurity Skills</span>
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="container skills-grid">
+                <article class="skill-card">
+                    <h3>Web Security</h3>
+                    <ul>
+                        <li>OWASP Top 10 <span>Practicing</span></li>
+                        <li>XSS <span>Practicing</span></li>
+                        <li>SQL Injection <span>Familiar</span></li>
+                        <li>IDOR <span>Familiar</span></li>
+                        <li>CSRF <span>Learning</span></li>
+                        <li>Authentication & Authorization <span>Practicing</span></li>
+                        <li>Session Security <span>Learning</span></li>
+                        <li>Web Security Testing <span>Practicing</span></li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Network Security</h3>
+                    <ul>
+                        <li>TCP/IP <span>Practicing</span></li>
+                        <li>OSI Model <span>Familiar</span></li>
+                        <li>IP Addressing <span>Familiar</span></li>
+                        <li>DNS <span>Learning</span></li>
+                        <li>DHCP <span>Learning</span></li>
+                        <li>VLAN <span>Learning</span></li>
+                        <li>NAT <span>Learning</span></li>
+                        <li>Network Analysis <span>Practicing</span></li>
+                        <li>Firewalls <span>Familiar</span></li>
+                        <li>Cisco Packet Tracer <span>Familiar</span></li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Security Tools</h3>
+                    <ul>
+                        <li>Burp Suite <span>Practicing</span></li>
+                        <li>Nmap <span>Practicing</span></li>
+                        <li>Wireshark <span>Familiar</span></li>
+                        <li>Kali Linux <span>Practicing</span></li>
+                        <li>Gobuster <span>Learning</span></li>
+                        <li>Metasploit <span>Learning</span></li>
+                        <li>Linux Command Line <span>Practicing</span></li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Programming & Development</h3>
+                    <ul>
+                        <li>C <span>Learning</span></li>
+                        <li>C++ <span>Familiar</span></li>
+                        <li>Java <span>Familiar</span></li>
+                        <li>Python <span>Practicing</span></li>
+                        <li>JavaScript <span>Practicing</span></li>
+                        <li>HTML <span>Practicing</span></li>
+                        <li>CSS <span>Practicing</span></li>
+                        <li>SQL <span>Learning</span></li>
+                        <li>Git / GitHub <span>Practicing</span></li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <section class="projects-section section-surface" id="projects">
+            <div class="container section-header">
+                <span class="section-label">Projects</span>
+                <h2>Cybersecurity Project Portfolio</h2>
+            </div>
+            <div class="container filter-bar" aria-label="Project category filter">
+                <button class="filter-button active" data-filter="All">All</button>
+                <button class="filter-button" data-filter="Cybersecurity">Cybersecurity</button>
+                <button class="filter-button" data-filter="Web Security">Web Security</button>
+                <button class="filter-button" data-filter="Networking">Networking</button>
+                <button class="filter-button" data-filter="Programming">Programming</button>
+            </div>
+            <div class="container projects-grid" id="projects-grid"></div>
+        </section>
+        <section class="research-section section-surface" id="research">
+            <div class="container section-header">
+                <span class="section-label">Security Research</span>
+                <h2>Security Research &amp; Vulnerability Findings</h2>
+            </div>
+            <p class="section-intro">This section will showcase security research, vulnerability analysis, responsible disclosure work, and findings from authorized testing environments.</p>
+            <div class="container filter-bar" aria-label="Vulnerability severity filter">
+                <button class="research-filter-button active" data-filter="All">All</button>
+                <button class="research-filter-button" data-filter="Critical">Critical</button>
+                <button class="research-filter-button" data-filter="High">High</button>
+                <button class="research-filter-button" data-filter="Medium">Medium</button>
+                <button class="research-filter-button" data-filter="Low">Low</button>
+            </div>
+            <div class="container research-grid" id="research-grid"></div>
+            <div class="container disclaimer-card">
+                <p><strong>Security Research Disclaimer:</strong> All security testing presented here is performed only on authorized targets, personal labs, CTF platforms, educational environments, or intentionally vulnerable applications. No unauthorized testing is conducted.</p>
+            </div>
+        </section>
+        <section class="labs-section section-surface" id="labs">
+            <div class="container section-header">
+                <span class="section-label">CTF & Labs</span>
+                <h2>Platform Progress</h2>
+            </div>
+            <div class="container labs-grid">
+                <article class="lab-card">
+                    <h3>TryHackMe</h3>
+                    <dl>
+                        <dt>Progress</dt>
+                        <dd>Placeholder</dd>
+                        <dt>Completed</dt>
+                        <dd>Placeholder</dd>
+                    </dl>
+                    <a href="https://tryhackme.com" target="_blank" rel="noreferrer" class="button button-secondary">View Profile</a>
+                </article>
+                <article class="lab-card">
+                    <h3>Hack The Box</h3>
+                    <dl>
+                        <dt>Progress</dt>
+                        <dd>Placeholder</dd>
+                        <dt>Completed</dt>
+                        <dd>Placeholder</dd>
+                    </dl>
+                    <a href="https://hackthebox.com" target="_blank" rel="noreferrer" class="button button-secondary">View Profile</a>
+                </article>
+                <article class="lab-card">
+                    <h3>PortSwigger Web Security Academy</h3>
+                    <dl>
+                        <dt>Progress</dt>
+                        <dd>Placeholder</dd>
+                        <dt>Completed Labs</dt>
+                        <dd>Placeholder</dd>
+                    </dl>
+                    <a href="https://portswigger.net/web-security" target="_blank" rel="noreferrer" class="button button-secondary">View Profile</a>
+                </article>
+                <article class="lab-card">
+                    <h3>Personal Security Labs</h3>
+                    <p>Personal cybersecurity experiments and intentionally vulnerable environments used for learning and security practice.</p>
+                    <dl>
+                        <dt>Progress</dt>
+                        <dd>In Progress</dd>
+                    </dl>
+                </article>
+            </div>
+        </section>
+        <section class="writeups-section section-surface" id="writeups">
+            <div class="container section-header">
+                <span class="section-label">Write-ups</span>
+                <h2>Security Write-ups</h2>
+            </div>
+            <div class="container writeups-grid" id="writeups-grid"></div>
+        </section>
+        <section class="certifications-section section-surface" id="certifications">
+            <div class="container section-header">
+                <span class="section-label">Certifications</span>
+                <h2>Certifications</h2>
+            </div>
+            <div class="container certification-card">
+                <p><strong>Currently building my cybersecurity knowledge through university coursework, hands-on labs, CTF challenges, security projects, and independent study.</strong></p>
+                <div class="certification-placeholder">
+                    <p><strong>Certification Name — Placeholder</strong></p>
+                    <p>Organization: <strong>Organization Name</strong></p>
+                    <p>Date: <strong>YYYY</strong></p>
+                    <p>Credential: <strong>Add credential URL</strong></p>
+                </div>
+            </div>
+        </section>
+        <section class="education-section section-surface" id="education">
+            <div class="container section-header">
+                <span class="section-label">Education</span>
+                <h2>Education</h2>
+            </div>
+            <div class="container education-card">
+                <h3>B.Sc. in Computer Science &amp; Engineering</h3>
+                <p class="education-meta">Bangladesh Army University of Engineering and Technology (BAUET)</p>
+                <div class="education-details">
+                    <p><strong>Status:</strong> 3rd Year, 2nd Semester</p>
+                    <p><strong>Department:</strong> Computer Science &amp; Engineering</p>
+                    <p><strong>Relevant Areas:</strong></p>
+                    <ul>
+                        <li>Cybersecurity</li>
+                        <li>Computer Networks</li>
+                        <li>Data Structures &amp; Algorithms</li>
+                        <li>Operating Systems</li>
+                        <li>Database Systems</li>
+                        <li>Web Development</li>
+                        <li>Software Engineering</li>
+                        <li>Computer Architecture</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="journey-section section-surface" id="journey">
+            <div class="container section-header">
+                <span class="section-label">Learning Journey</span>
+                <h2>My Cybersecurity Learning Journey</h2>
+            </div>
+            <div class="container journey-grid">
+                <article class="journey-card">
+                    <h3>Foundation</h3>
+                    <ul>
+                        <li>Computer fundamentals</li>
+                        <li>Operating systems</li>
+                        <li>Linux</li>
+                        <li>Networking</li>
+                        <li>TCP/IP</li>
+                        <li>Programming</li>
+                    </ul>
+                </article>
+                <article class="journey-card">
+                    <h3>Security Fundamentals</h3>
+                    <ul>
+                        <li>Cybersecurity concepts</li>
+                        <li>OWASP Top 10</li>
+                        <li>Authentication</li>
+                        <li>Authorization</li>
+                        <li>Common vulnerabilities</li>
+                        <li>Security principles</li>
+                    </ul>
+                </article>
+                <article class="journey-card">
+                    <h3>Practical Security</h3>
+                    <ul>
+                        <li>Burp Suite</li>
+                        <li>Nmap</li>
+                        <li>Wireshark</li>
+                        <li>Kali Linux</li>
+                        <li>Web security labs</li>
+                        <li>CTF challenges</li>
+                    </ul>
+                </article>
+                <article class="journey-card">
+                    <h3>Future Goals</h3>
+                    <ul>
+                        <li>Advanced web security</li>
+                        <li>Vulnerability research</li>
+                        <li>Penetration testing</li>
+                        <li>Security engineering</li>
+                        <li>Security certifications</li>
+                        <li>Real-world security research</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <section class="resume-section section-surface" id="resume">
+            <div class="container section-header">
+                <span class="section-label">Resume</span>
+                <h2>Want to know more about my experience?</h2>
+            </div>
+            <div class="container resume-card">
+                <p>Download my CV to learn more about my education, technical skills, projects, and cybersecurity interests.</p>
+                <a class="button button-primary" href="assets/Tandra-Pramanik-CV.pdf" download>Download CV</a>
+            </div>
+        </section>
+        <section class="contact-section section-surface" id="contact">
+            <div class="container section-header">
+                <span class="section-label">Contact</span>
+                <h2>Let's Connect</h2>
+            </div>
+            <div class="container contact-grid">
+                <div class="contact-copy">
+                    <p>I'm always interested in connecting with cybersecurity professionals, students, researchers, recruiters, and people interested in security.</p>
+                    <div class="contact-meta">
+                        <div><strong>GitHub</strong> <a href="https://github.com/Tandra21" target="_blank" rel="noreferrer">github.com/Tandra21</a></div>
+                        <div><strong>LinkedIn</strong> <a href="https://linkedin.com/in/YOUR_LINKEDIN_URL" target="_blank" rel="noreferrer">YOUR_LINKEDIN_URL</a></div>
+                        <div><strong>Email</strong> <a href="mailto:tandra01304@gmail.com">tandra01304@gmail.com</a></div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form" novalidate>
+                    <div class="form-field">
+                        <label for="contact-name">Name</label>
+                        <input type="text" id="contact-name" name="name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    <div class="form-field">
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" name="email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    <div class="form-field">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="button button-primary">Send Message</button>
+                    <p class="form-status" id="form-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <p>© 2026 Tandra Pramanik. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/Tandra21" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/YOUR_LINKEDIN_URL" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="mailto:tandra01304@gmail.com">Email</a>
+            </div>
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#research">Research</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
